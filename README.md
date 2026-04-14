@@ -1,41 +1,40 @@
-# 🛒 High-Performance E-Commerce Engine (Full-Stack)
+# 🛒 High-Performance E-Commerce Engine (Backend)
 
 [![Status](https://img.shields.io/badge/Status-In--Progress-orange)]()
 [![Framework](https://img.shields.io/badge/.NET-8.0-blue)]()
-[![Frontend](https://img.shields.io/badge/Angular-17-red)]()
+[![Architecture](https://img.shields.io/badge/Architecture-Clean--Onion-green)]()
 
-A modern, decoupled e-commerce platform built from the ground up, focusing on **Scalability**, **Clean Architecture**, and **Advanced State Management**.
+A modern, decoupled e-commerce API built with **.NET 8**, focusing on **Scalability**, **Clean Architecture**, and **High-Performance Data Querying**.
 
-## 🏗️ Architectural Overview (Clean/Onion Architecture)
-The project is structured into distinct layers to ensure separation of concerns:
-- **Core (Domain & Application):** Contains entities, interfaces, and business logic.
-- **Infrastructure:** Handles data persistence (EF Core) and external services.
-- **API:** RESTful endpoints with unified response structures.
+## 🏗️ Architectural Overview
+The project follows a modular layered approach:
+- **Core (Domain & Application):** Defines the central entities and system interfaces.
+- **Infrastructure:** The logic engine, containing **Business Logic**, Data Persistence (EF Core), and Repository implementations.
+- **API (Web Layer):** Managing RESTful endpoints and containing **DTOs** (Data Transfer Objects) to secure and abstract internal models.
 
-## 🛠️ Key Technical Achievements
+## 🛠️ Completed Achievements ✅
 
-### 🔹 Backend Excellence
-- **Clean Architecture (Onion):** Ensuring the system is independent of UI, Database, or any external agency.
-- **Advanced Patterns:** Implementation of **Repository Pattern** and **Unit of Work** for transaction integrity.
-- **Generic Data Pagination:** Designed a robust `Pagination<T>` container using `IReadOnlyList<T>` for type-safe API responses.
-- **Global Exception Handling:** Custom Middleware to intercept exceptions and return structured responses.
-- **Automated Mapping:** Using **AutoMapper** and **DTOs** to decouple domain entities from API contracts.
+- **Catalog & Product Intelligence:** - Full implementation of the product catalog with dedicated endpoints for **Product Details**.
+  - Integrated **Filtering by Price** and multi-criteria **Searching** by Category or Name.
+- **Dynamic Query Engine:** - Server-side sorting and **Generic Pagination** using `IReadOnlyList<T>` for optimized response times.
+- **Persistent Cart Logic (Client-Side):** - Designed the API to support a reactive **Client-Side Cart system** where users can Add/Remove/Update items, persisted via **Local Storage** on the frontend.
 
-### 🔹 Frontend Sophistication (Angular 17)
-- **Reactive UI:** Leveraging **RxJS Services** for asynchronous data streams.
-- **Type-Safe Interfaces:** Ensuring strict typing across the entire frontend application.
-- **Client-Side State:** A custom-built **Cart System** utilizing Local Storage for a persistent, reactive experience.
+## ⚙️ Technical Highlights
+- **Repository Pattern & Unit of Work:** Ensuring clean data access and transaction integrity.
+- **AutoMapper:** Seamlessly mapping Domain Entities to API-level DTOs.
+- **Global Middleware:** Centralized exception handling for structured error responses.
 
-## 🚀 Upcoming Milestones (Roadmap)
+## 📸 API Documentation & Testing (Swagger)
+
+<div align="center">
+  <img src="رابط_صورة_سواجر_1" width="48%" alt="API Endpoints" />
+  <img src="رابط_صورة_الاستجابة" width="48%" alt="JSON DTO Response" />
+</div>
+
+## 🚀 Upcoming Milestones
 - [ ] **Security:** Secure Identity Management via JWT & Refresh Tokens.
 - [ ] **Payments:** Full payment lifecycle integration with **Stripe API & Webhooks**.
-- [ ] **Real-time:** Order status tracking and notifications.
-
-## 📸 Project Teasers (Work in Progress)
-*(Add your current screenshots here to show the progress of the UI)*
 
 ---
-📂 **Backend Repo:** [Click Here](https://github.com/Ibrahem-Tabaneh/ECommerce-Asp.netCore-Angular-CleanArch)  
-📂 **Frontend Repo:** [Click Here](https://github.com/Ibrahem-Tabaneh/Ecommerce3)
-
+📂 **Frontend Repo:** [View Angular Project](رابط_مستودع_الفرونت)  
 📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/ibrahem-tabaneh-249683249)
