@@ -1,21 +1,41 @@
-# E-Commerce Platform (Under Development 🚧)
+# 🛒 High-Performance E-Commerce Engine (Full-Stack)
 
-A scalable, multi-tier E-Commerce system designed with a focus on **Clean Architecture** and **Performance Optimization**.
+[![Status](https://img.shields.io/badge/Status-In--Progress-orange)]()
+[![Framework](https://img.shields.io/badge/.NET-8.0-blue)]()
+[![Frontend](https://img.shields.io/badge/Angular-17-red)]()
 
-## 🚀 Tech Stack
-- **Backend:** ASP.NET Core 8 (Web API). 
-- **Frontend:** Angular 17 & TypeScript.
-- **Database:** SQL Server with Entity Framework Core.
-- **Security:** JWT Authentication & ASP.NET Core Identity.
+A modern, decoupled e-commerce platform built from the ground up, focusing on **Scalability**, **Clean Architecture**, and **Advanced State Management**.
 
-## 🛠 Architectural Patterns
-- **Clean Architecture:** Separation of concerns across Domain, Application, Infrastructure, and API layers.
-- **Repository & Unit of Work:** Decoupling data access and ensuring atomic transactions.
-- **DTOs & AutoMapper:** Efficient data transfer and object mapping.
-- **Global Exception Handling:** Centralized middleware for consistent API responses.
+## 🏗️ Architectural Overview (Clean/Onion Architecture)
+The project is structured into distinct layers to ensure separation of concerns:
+- **Core (Domain & Application):** Contains entities, interfaces, and business logic.
+- **Infrastructure:** Handles data persistence (EF Core) and external services.
+- **API:** RESTful endpoints with unified response structures.
 
-## 🔑 Key Features
-- [ ] Secure Role-Based Access Control (RBAC).
-- [ ] Generic Repository pattern implementation.
-- [ ] Stripe Payment Gateway Integration.
-- [ ] [Advanced Filtering, Pagination, and Searching.
+## 🛠️ Key Technical Achievements
+
+### 🔹 Backend Excellence
+- **Clean Architecture (Onion):** Ensuring the system is independent of UI, Database, or any external agency.
+- **Advanced Patterns:** Implementation of **Repository Pattern** and **Unit of Work** for transaction integrity.
+- **Generic Data Pagination:** Designed a robust `Pagination<T>` container using `IReadOnlyList<T>` for type-safe API responses.
+- **Global Exception Handling:** Custom Middleware to intercept exceptions and return structured responses.
+- **Automated Mapping:** Using **AutoMapper** and **DTOs** to decouple domain entities from API contracts.
+
+### 🔹 Frontend Sophistication (Angular 17)
+- **Reactive UI:** Leveraging **RxJS Services** for asynchronous data streams.
+- **Type-Safe Interfaces:** Ensuring strict typing across the entire frontend application.
+- **Client-Side State:** A custom-built **Cart System** utilizing Local Storage for a persistent, reactive experience.
+
+## 🚀 Upcoming Milestones (Roadmap)
+- [ ] **Security:** Secure Identity Management via JWT & Refresh Tokens.
+- [ ] **Payments:** Full payment lifecycle integration with **Stripe API & Webhooks**.
+- [ ] **Real-time:** Order status tracking and notifications.
+
+## 📸 Project Teasers (Work in Progress)
+*(Add your current screenshots here to show the progress of the UI)*
+
+---
+📂 **Backend Repo:** [Click Here](https://github.com/Ibrahem-Tabaneh/ECommerce-Asp.netCore-Angular-CleanArch)  
+📂 **Frontend Repo:** [Click Here](https://github.com/Ibrahem-Tabaneh/Ecommerce3)
+
+📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/ibrahem-tabaneh-249683249)
