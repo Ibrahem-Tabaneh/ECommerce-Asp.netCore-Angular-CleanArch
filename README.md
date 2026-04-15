@@ -42,6 +42,6 @@ The system is designed using a layered approach to isolate business logic:
 
 ---
 📂 **Backend Repo:** [Click Here](https://github.com/Ibrahem-Tabaneh/ECommerce-Asp.netCore-Angular-CleanArch)  
-📂 **Frontend Repo:** [Click Here](https://github.com/Ibrahem-Tabaneh/Ecommerce3)
+📂 **Frontend Repo:** [Click Here](https://github.com/Ibrahem-Tabaneh/ECommerce.Client.Angular17.git)
 
 📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/ibrahem-tabaneh-249683249/)
