@@ -1,10 +1,9 @@
-# 🛒 High-Performance E-Commerce Engine (Full-Stack)
+# 🛒 High-Performance E-Commerce Engine (Full-Stack)    (In-Progress)
 
 [![Status](https://img.shields.io/badge/Status-In--Progress-orange)]()
 [![Framework](https://img.shields.io/badge/.NET-8.0-blue)]()
 [![Frontend](https://img.shields.io/badge/Angular-17-red)]()
 
-Feb 2026 - PresentFeb 2026 - Present
 📝 Overview:
 Developed a robust e-commerce platform allowing users to browse products, view details, and complete purchases, while providing a comprehensive dashboard with full administrative permissions.
 
